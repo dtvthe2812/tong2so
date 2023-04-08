@@ -6,7 +6,7 @@ export default function App() {
   const [soB, setB] = useState(0);
 
   const handleSum = () => {
-    setSum(parseInt(soA) + parseInt(soB));
+    setSum(Number(soA) + Number(soB));
   }
 
   return (
