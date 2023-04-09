@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
-export default function App() {
+export default function AppUseState() {
   const [sum, setSum] = useState(null);
   const myFormik = useFormik({
     // Khoi tao gia tri, dựa vào attr "name="
